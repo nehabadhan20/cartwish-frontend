@@ -1,0 +1,35 @@
+useRef:
+
+1. For accessing the DOM elements
+2. For creating mutable variable which will not re-render the component
+
+For hiding and showing password - we can do this using useRef
+
+what is the best way to handle form data useRef or use state?
+
+if we have 5 to 6 fields then use State, else use Ref.
+For performance issues fixing we should use useRef instead of useState
+
+CustomHooks: For creating Reusable function. Custom hooks are our own hooks that we create for our own use
+and we can use them multiple times in your project.
+
+Authentication:
+
+We use JSON Web Token to authenticate users.
+
+JWT: JWT stands for JSON Web Token. JWT is used to securely transfer information between two parties like front end and backend.
+When user successfully register or login we get JSON Web Token(it is like a security card for accessing protected API Data).
+When user access for data, which is only accessible by logged in user then server check the security card which is JSON web token 
+and validate it with JWT secret key and that key verified then server return the data to the user.
+
+Debouncing - Debouncing is a method to delay the execution of a function until after a certain amount of time has passed.
+
+Backend Command -> node index.js 
+Path: React_Udemy/ResourceFolder/Project3/cartwish backend
+
+UI Command - npm run dev
+
+Deployment: We configure Database on cloud as cloud database, so everyone can access it
+Connect Database(using mongo db) to node js 
+
+GitHub: Github allows developers to create repositories or "repos" where they can store their code and track changes over time.
